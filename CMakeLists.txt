@@ -38,7 +38,7 @@ WkProject( ProjectC C )
 #We need to modify compile settings as the static library will be linked with shared library ( Project A )
 IF(MSVC)
 ELSEIF(CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX) 
-	WkAddCXXFlags( All "-fPIC")
+	WkAddCXXFlags("-fPIC")
 ENDIF()
 
 #build rules for the project
