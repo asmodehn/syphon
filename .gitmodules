@@ -1,3 +1,6 @@
 [submodule "CMake"]
 	path = CMake
 	url = https://github.com/asmodehn/WkCMake
+[submodule "depends/entityx"]
+	path = depends/entityx
+	url = https://github.com/asmodehn/entityx
